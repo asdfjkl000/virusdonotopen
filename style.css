@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Poppins:wght@700&family=Rubik:wght@700&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Manrope:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Manrope:wght@600&family=Space+Grotesk:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Josefin+Sans:ital,wght@0,700;1,400&family=Manrope:wght@600&family=Space+Grotesk:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #db9090;
+    background-image: url('pictures/bg.jpg'); 
+    background-size:cover; 
+    background-position: center;
+}
+
+div.navbar div {
+    margin: 5px;
+}
+
+.navbar {
+    border: 1px solid #ee669d;
+    background-color: #dc79bc;
+    padding: 2px;
+    height: 70px;
+}
+
+#home {
+    background-color: #59bfd8;
+}
+
+#home a {
+    color: white;
+}
+
+#gall {
+    background-color: #5a99ff;
+    margin-right: 20px;
+}
+
+#gall a {
+    color: white;
+    background-color: #5a99ff;
+}
+
+.links {
+    border: 1px solid #759ef7;
+    display: inline;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.links:hover {
+    opacity: 1;
+    transition: .4s;
+    font-size:medium;
+    padding: 6px;
+
+}
+
+#linksgroup {
+    text-align: right;
+    float: right;
+    margin-top: 25px;
+}
+
+.links a {
+    text-decoration:double;
+}
+
+#logo {
+    margin-left: 20px;
+    float: left;
+    width: 60px;
+    height: 60px;
+}
+
+.footer {
+    background-color: #89d5e2;
+    position: fixed;
+    bottom: 0;
+    padding: 10px;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+#copyright {
+    float: left;
+    position: fixed;
+    bottom: 19px;
+    left: 20px;
+    color: white;
+    font-style: italic;
+    font-family: 'Nunito', serif;
+    font-size: smaller;
+}
+
+#socials img {
+    width: 10px;
+}
+
+#ig, #gh, #fb {
+    float: right;
+    opacity: 0.7;
+    transition: .4s;
+    margin-right: 10px;
+}
+
+#ig {
+    margin-right: 10px;
+}
+
+#fb:hover, #ig:hover, #gh:hover {
+    opacity: 1;
+    transition: .4s;
+}
+
+.banner {
+    background-image: url('pictures/bg.jpg');
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 600px;
+}
+
+.bannertext {
+    position: absolute;
+    top: 25%;
+    left: 8%;
+}
+
+.bannertext h1 {
+    font-size: 50px;
+    font-family: 'Dela Gothic One', sans-serif;
+    color: #5856c0;
+    text-shadow: -2px 2px 0 #6ab7eb, 1px 1px 0 #7c91df, 1px -1px 0 #93d3ed, -1px -1px 0 #62bad0;
+}
+
+.bannertext h1 span {
+    font-family: 'Young Serif', serif;
+    color: #ffffff;
+    text-shadow: -2px 2px 0 #e876c8, 1px 1px 0 #ff88ad, 1px -1px 0 #ef83ed, -1px -1px 0 #ff72f8;
+}
+
+.bannertext p {
+    margin-top: 10px;
+    color: white;
+    font-size: larger;
+    font-family: 'Josefin Sans', 'serif';
+    text-shadow: -1px 1px 0 #5fe2cf, 1px 1px 0 #3ed2ad, 1px -1px 0 #58f65d, -1px -1px 0 #8bd674;
+}
+
+.bannertext a {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    text-shadow: -1px 1px 0 #ce55bc, 1px 1px 0 #5ac1d5, 1px -1px 0 #fd9bbf, -1px -1px 0 #8d3be6;
+    background-color: #ff7ac7;
+    padding: 10px;
+    font-family: 'Space Grotesk',sans-serif;
+    margin-top: 1em;
+    font-weight: bold;
+    transition: .4s;
+}
+
+#bannerlink:hover {
+    transition: .4s;
+    font-size: large;
+    padding: 6px;
+}
+
+
+
+.gallery {
+    margin: 10px;
+    margin-top: 65px;
+    text-align: center;
+}
+
+.gallery h1 {
+    position: absolute;
+    font-family: 'Rubik', sans-serif;
+    color: rgb(116, 179, 213);
+    top: 13%;
+    left: 3%;
+}
+
+.pics img {
+    margin: 4px;
+    border: 5px solid rgb(121, 183, 211);
+    border-radius: 10px;
+    width: 11%;
+    transition: transform .2s ease-in-out, box-shadow .2s ease-in-out;
+}
+
+.pics img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+/* style.css */
+
+/* Button */
+.button {
+    background-color: #8c3d7b; /* Dark pink button */
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #6b265c; /* Darker pink on hover */
+}
+

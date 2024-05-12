@@ -1,0 +1,105 @@
+/* stile.css */
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #db9090; /* Light pink background */
+    background-image: url('pictures/bg.jpg'); 
+    background-size: cover; 
+    background-position: center;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header-image img {
+    max-width: 100%;
+}
+
+/* Form Container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* White background with transparency */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+}
+
+/* Message Box */
+.message-box {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9); /* White background with transparency */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+}
+
+.message-box h1 {
+    font-family: 'Dela Gothic One', sans-serif;
+    color: #8c3d7b; /* Dark pink title */
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.message-box p {
+    color: #333; /* Dark gray text */
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+/* Footer */
+.footer {
+    background-color: #89d5e2;
+    position: fixed;
+    bottom: 0;
+    padding: 10px;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+#copyright {
+    float: left;
+    position: fixed;
+    bottom: 19px;
+    left: 20px;
+    color: white;
+    font-style: italic;
+    font-family: 'Nunito', serif;
+    font-size: smaller;
+}
+
+#socmed {
+    float: right;
+}
+
+#fb {
+    opacity: 0.7;
+    transition: .4s;
+    margin-right: 10px;
+}
+
+#fb:hover {
+    opacity: 1;
+    transition: .4s;
+}
+
+#logo{
+    margin-left: 450px ;
+}

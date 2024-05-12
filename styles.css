@@ -1,0 +1,111 @@
+/* signup-style.css */
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0e5e5; /* Light pink background */
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header-image img {
+    max-width: 100%;
+}
+
+/* Form Container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* White background with transparency */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+}
+
+/* Form */
+h1 {
+    font-family: 'Dela Gothic One', sans-serif;
+    color: #8c3d7b; /* Dark pink title */
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #8c3d7b; /* Dark pink label */
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.radio-group {
+    margin-top: 10px; /* Adjust margin top as needed */
+}
+
+input[type="radio"] {
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+button[type="submit"] {
+    background-color: #8c3d7b; /* Dark pink button */
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #6b265c; /* Darker pink on hover */
+}
+
+p {
+    margin-top: 10px;
+    color: #333; /* Dark gray text */
+}
+
+.logo img {
+    max-width: 150px; /* Adjust the width of the logo as needed */
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px; /* Adjust the margin top as needed */
+}
+
+
